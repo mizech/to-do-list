@@ -15,3 +15,12 @@
  */
 
 @import "bootstrap";
+a.btn-secondary,
+a.btn-danger,
+a.btn-success {
+    color: white;
+}
+
+.striker {
+    text-decoration: line-through;
+}

@@ -36,3 +36,9 @@ a.btn-success {
 .form-group:first-of-type {
     margin: 1rem 0 0.75rem 0;
 }
+
+a:hover:not(.btn) {
+    background-color: #cdcdcd;
+    padding: 2px;
+    border-radius: 5px;
+}

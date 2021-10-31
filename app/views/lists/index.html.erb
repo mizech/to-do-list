@@ -2,6 +2,8 @@
 
 <h1>To-Do List</h1>
 
+<%= render "form_index" %>
+
 <table class="table-bordered table">
   <tbody>
     <% @lists.each do |list| %>
@@ -19,7 +21,3 @@
     <% end %>
   </tbody>
 </table>
-
-<br>
-
-<%= link_to 'New List', new_list_path, class: "btn btn-success" %>

@@ -3,6 +3,7 @@ class ListsController < ApplicationController
 
   # GET /lists or /lists.json
   def index
+    @list = List.new
     @lists = List.all
   end
 

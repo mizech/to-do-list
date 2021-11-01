@@ -39,6 +39,41 @@ a.btn-success {
 
 a:hover:not(.btn) {
     background-color: #cdcdcd;
-    padding: 2px;
+    padding: 1px;
     border-radius: 5px;
+}
+
+.navbar-brand {
+    margin-left: 2rem;
+}
+
+.search-field {
+    padding: 4px 0;
+}
+
+.navbar.bg-success a {
+    color: white;
+    font-weight: 900;
+}
+
+#insert-item {
+    color: white;
+    border-color: white;
+}
+
+#insert-item:hover {
+    opacity: 0.6;
+}
+
+.mr-sm-2.search-field {
+    margin-left: 2rem;
+}
+
+.navbar a {
+    color: white !important;
+}
+
+a:not(.navbar):not(.btn) {
+    text-decoration: none !important;
+    color: black;
 }

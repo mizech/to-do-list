@@ -6,7 +6,7 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="#">Delete all Items</a>
+        <%= link_to "Delete all items", home_delete_list_path, data: { confirm: 'Are you sure?' }, class: "nav-link" %>
       </li>
     </ul>
     <%= form_with(model: @list) do |form| %>

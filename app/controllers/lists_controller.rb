@@ -44,6 +44,10 @@ class ListsController < ApplicationController
     end
   end
 
+  def delete_all
+    puts "Testing 123"
+  end
+
   # DELETE /lists/1 or /lists/1.json
   def destroy
     @list.destroy

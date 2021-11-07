@@ -1,6 +1,6 @@
 # To-Do List App
 
-Basic CRUD-app, implemented using with Rails 6 and Bootstrap 5.
+Basic CRUD-app, done with Rails 6 and Bootstrap 5.
 
 ## Notes
 

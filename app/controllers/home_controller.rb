@@ -10,6 +10,9 @@ class HomeController < ApplicationController
     end
 
     def toggle_completed
+        @item = List.where({id: params[:id]})
+        @item[0].completed = !@item[0].completed
+        @item[0].save
         redirect_to root_path, notice: "Item completed-status has become toggled."
     end
 end

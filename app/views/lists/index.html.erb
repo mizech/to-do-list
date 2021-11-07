@@ -5,11 +5,13 @@
       <% if list.completed %>
         <tr class="table-success">
           <td class="striker"><%= link_to list.description, edit_list_path(list) %></td>
+          <td><center><%= link_to "Toggle", toggle_compl_path, class: "btn btn-info" %></center></td>
           <td><center><%= link_to 'Delete', list, method: :delete, data: { confirm: 'Are you sure?' }, class: "btn btn-danger" %></center></td>
         </tr>
       <% else %>
         <tr>
           <td><%= link_to list.description, edit_list_path(list) %></td>
+          <td><center><%= link_to "Toggle", toggle_compl_path, class: "btn btn-info" %></center></td>
           <td><center><%= link_to 'Delete', list, method: :delete, data: { confirm: 'Are you sure?' }, class: "btn btn-danger" %></center></td>
         </tr>
       <% end %>

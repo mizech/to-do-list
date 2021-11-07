@@ -1,24 +1,9 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Notes
 
-Things you may want to cover:
+Webserver Start: `rails s`
 
-* Ruby version
+Show only the routes for the 'home'-controller: `rails routes -c home --expanded`
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Open the Rails-console: `rails c`

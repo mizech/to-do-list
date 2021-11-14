@@ -6,10 +6,10 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <%= link_to "Delete all items", home_delete_list_path, :method => :delete, data: { confirm: 'Are you sure?' }, class: "nav-link" %>
+        <%= link_to "Delete all items", home_delete_list_path, :method => :delete, data: { confirm: 'All completed items will be removed. Are you sure?' }, class: "nav-link" %>
       </li>
       <li class="nav-item active">
-        <%= link_to "Delete completed items", del_compl_path, :method => :delete, data: { confirm: 'Are you sure?' }, class: "nav-link" %>
+        <%= link_to "Delete completed items", del_compl_path, :method => :delete, data: { confirm: 'All completed items will be removed. Are you sure?' }, class: "nav-link" %>
       </li>
     </ul>
     <%= form_with(model: @list) do |form| %>

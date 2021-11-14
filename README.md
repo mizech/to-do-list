@@ -4,9 +4,7 @@ Basic CRUD-app, done with Rails 6 and Bootstrap 5.
 
 <div style="text-align: center">
   <img src="./images/image_1.png" alt="screenshot 1" width="800" />&nbsp; 
-  <img src="./images/image_2.png" alt="screenshot 2" width="800" />&nbsp;
-  <img src="./images/image_3.png" alt="screenshot 3" width="800" />&nbsp;
-  <img src="./images/image_4.png" alt="screenshot 4" width="800" />
+  <img src="./images/image_2.png" alt="screenshot 2" width="800" />
 </div>
 
 ## Notes

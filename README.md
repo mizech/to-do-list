@@ -23,7 +23,7 @@ Basic CRUD-application, done with Rails 6 and Bootstrap 5.
 
 | Method  | Path           | Result                                       |
 | ------- | -------------- | -------------------------------------------- |
-| GET     |  /people       | Retrieve all people                          |
+| GET     | /people        | Retrieve all people                          |
 | POST    | /people        | Create a new person                          |
 | GET     | /people/new    | Form to create a new person                  |
 | GET     | /people/1/edit | Form to edit an existing person              |

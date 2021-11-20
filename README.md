@@ -19,7 +19,6 @@ Basic CRUD-application, done with Rails 6 and Bootstrap 5.
 - Open the Rails-console. Executed commands doesn't modify the data: `rails console --sandbox`
 
 - Generate a controller 'Articles' with a method 'index': `rails generate controller Articles index`
-<<<<<<< HEAD
 
 ### Routing
 
@@ -36,5 +35,3 @@ PATCH /people/1 Change attributes on an existing person
 PUT /people/1 Replace all attributes on an existing person
 
 DELETE /people/1 Delete an existing person
-=======
->>>>>>> a5d3001cb6844eb619134a65a5cdb535f593202a

@@ -3,8 +3,7 @@
 Basic CRUD-application, done with Rails 6 and Bootstrap 5.
 
 <div style="text-align: center">
-  <div><img src="./images/image_1.png" alt="screenshot 1" width="800" /></div>
-  <hr />
+  <div style="margin-bottom: 2rem;"><img src="./images/image_1.png" alt="screenshot 1" width="800" /></div>
   <div><img src="./images/image_2.png" alt="screenshot 2" width="800" /></div>
 </div>
 

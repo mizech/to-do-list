@@ -22,16 +22,16 @@ Basic CRUD-application, done with Rails 6 and Bootstrap 5.
 
 ### Routing
 
-GET /people Retrieve all people
+| GET | /people | Retrieve all people
 
-POST /people Create a new person
+| POST | /people | Create a new person
 
-GET /people/new Form to create a new person
+| GET | /people/new | Form to create a new person
 
-GET /people/1/edit Form to edit an existing person
+| GET | /people/1/edit | Form to edit an existing person
 
-PATCH /people/1 Change attributes on an existing person
+| PATCH | /people/1 | Change attributes on an existing person
 
-PUT /people/1 Replace all attributes on an existing person
+| PUT | /people/1 | Replace all attributes on an existing person
 
-DELETE /people/1 Delete an existing person
+| DELETE | /people/1 | Delete an existing person

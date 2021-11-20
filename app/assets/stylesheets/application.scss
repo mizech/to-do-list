@@ -1,0 +1,95 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+@import "bootstrap";
+a.btn-secondary,
+a.btn-danger,
+a.btn-success {
+    color: white;
+}
+
+.striker {
+    text-decoration: line-through;
+}
+
+#notice {
+    padding: 1.25rem;
+}
+
+.form-group {
+    margin: 0 0 1.5rem 0;
+}
+
+.form-group:first-of-type {
+    margin: 1rem 0 0.75rem 0;
+}
+
+a:hover:not(.btn) {
+    background-color: #cdcdcd;
+    border-radius: 5px;
+}
+
+.navbar-brand {
+    margin-left: 2rem;
+}
+
+.search-field {
+    padding: 4px 0;
+}
+
+.navbar.bg-success a {
+    color: white;
+    font-weight: 900;
+}
+
+#insert-item {
+    color: white;
+    border-color: white;
+}
+
+#insert-item:hover {
+    opacity: 0.6;
+}
+
+.mr-sm-2.search-field {
+    margin-left: 2rem;
+}
+
+.navbar a {
+    color: white !important;
+}
+
+a:not(.navbar):not(.btn) {
+    text-decoration: none !important;
+    color: black;
+}
+
+a.btn-info {
+    color: white;
+}
+
+td a.btn {
+    margin: auto;
+}
+
+.to-do-list a:hover {
+    color: white;
+    opacity: 0.6;
+}
+
+table.to-do-list a {
+    font-size: 16px;
+}
